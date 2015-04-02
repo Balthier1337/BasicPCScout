@@ -34,8 +34,8 @@ Voodoo
 ##################################
 ##### Create custom settings #####
 ##################################
-$csvFolder = "C:\Users\josephm\Google Drive\Documents\Scripts\Windows\Powershell\"
-$csvFile = "system-info.csv"
+$csvFolder = [environment]::getfolderpath('mydocuments')
+$csvFile = "\system-info.csv"
 
 # Extra variables
 $csv = "$csvFolder$csvFile"
